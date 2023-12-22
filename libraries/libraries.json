@@ -1,0 +1,1476 @@
+[
+    {
+        "name": "Aberdeen City",
+        "code": "S12000033",
+        "backgroundColour": "1F515A",
+        "labelColour": "B8C8D0",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Aberdeenshire",
+        "code": "S12000034",
+        "backgroundColour": "0B3E73",
+        "labelColour": "B8D0E0",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Sir Ynys Mon - Isle of Anglesey",
+        "code": "W06000001",
+        "backgroundColour": "003D7C",
+        "labelColour": "F8B828",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Angus",
+        "code": "S12000041",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "00A090",
+        "textColour": "000000"
+    },
+    {
+        "name": "Argyll and Bute",
+        "code": "S12000035",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "203880",
+        "textColour": "000000"
+    },
+    {
+        "name": "Barking and Dagenham",
+        "code": "E09000002",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "D81818",
+        "textColour": "000000"
+    },
+    {
+        "name": "Barnet",
+        "code": "E09000003",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "F03808",
+        "textColour": "000000"
+    },
+    {
+        "name": "Barnsley",
+        "code": "E08000016",
+        "backgroundColour": "2C2C2A",
+        "labelColour": "B8B8B0",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Bath and North East Somerset",
+        "code": "E06000022",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "60D020",
+        "textColour": "000000"
+    },
+    {
+        "name": "Bedford",
+        "code": "E06000055",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "D0B830",
+        "textColour": "000000"
+    },
+    {
+        "name": "Bexley",
+        "code": "E09000004",
+        "backgroundColour": "FFFFFD",
+        "labelColour": "385080",
+        "textColour": "000000"
+    },
+    {
+        "name": "Birmingham",
+        "code": "E08000025",
+        "backgroundColour": "01B1EC",
+        "labelColour": "D82080",
+        "textColour": "000000"
+    },
+    {
+        "name": "Blackburn with Darwen",
+        "code": "E06000008",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "484838",
+        "textColour": "000000"
+    },
+    {
+        "name": "Blackpool",
+        "code": "E06000009",
+        "backgroundColour": "7D0163",
+        "labelColour": "E0A0D8",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Blaenau Gwent",
+        "code": "W06000019",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "E03018",
+        "textColour": "000000"
+    },
+    {
+        "name": "Bolton",
+        "code": "E08000001",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "D04800",
+        "textColour": "000000"
+    },
+    {
+        "name": "Bournemouth",
+        "code": "E06000028",
+        "backgroundColour": "361D54",
+        "labelColour": "70C8E0",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Bracknell Forest",
+        "code": "E06000036",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "607838",
+        "textColour": "000000"
+    },
+    {
+        "name": "Bradford",
+        "code": "E08000032",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "1038F0",
+        "textColour": "000000"
+    },
+    {
+        "name": "Brent",
+        "code": "E09000005",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "C84808",
+        "textColour": "000000"
+    },
+    {
+        "name": "Pen-y-bont ar Ogwr - Bridgend",
+        "code": "W06000013",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "109088",
+        "textColour": "000000"
+    },
+    {
+        "name": "Brighton and Hove",
+        "code": "E06000043",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "702088",
+        "textColour": "000000"
+    },
+    {
+        "name": "Bristol City",
+        "code": "E06000023",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "60D020",
+        "textColour": "000000"
+    },
+    {
+        "name": "Bromley",
+        "code": "E09000006",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "40A878",
+        "textColour": "000000"
+    },
+    {
+        "name": "Buckinghamshire",
+        "code": "E10000002",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "282880",
+        "textColour": "000000"
+    },
+    {
+        "name": "Bury",
+        "code": "E08000002",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "C0A020",
+        "textColour": "000000"
+    },
+    {
+        "name": "Caerphilly",
+        "code": "W06000018",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "D03820",
+        "textColour": "000000"
+    },
+    {
+        "name": "Calderdale",
+        "code": "E08000033",
+        "backgroundColour": "57B054",
+        "labelColour": "FFFFFF",
+        "textColour": "000000"
+    },
+    {
+        "name": "Cambridgeshire",
+        "code": "E10000003",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "A06800",
+        "textColour": "000000"
+    },
+    {
+        "name": "Camden",
+        "code": "E09000007",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "404040",
+        "textColour": "000000"
+    },
+    {
+        "name": "Caerdydd - Cardiff",
+        "code": "W06000015",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "E02018",
+        "textColour": "000000"
+    },
+    {
+        "name": "Sir Gaerfyrddin - Carmarthenshire",
+        "code": "W06000010",
+        "backgroundColour": "1F2F51",
+        "labelColour": "B0B0C0",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Central Bedfordshire",
+        "code": "E06000056",
+        "backgroundColour": "57227E",
+        "labelColour": "C8D888",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Sir Ceredigion - Ceredigion",
+        "code": "W06000008",
+        "backgroundColour": "3B82B8",
+        "labelColour": "E0B858",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Cheshire East",
+        "code": "E06000049",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "F09800",
+        "textColour": "000000"
+    },
+    {
+        "name": "Cheshire West and Chester",
+        "code": "E06000050",
+        "backgroundColour": "BBBFCB",
+        "labelColour": "F07800",
+        "textColour": "000000"
+    },
+    {
+        "name": "City of London",
+        "code": "E09000001",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "D82030",
+        "textColour": "000000"
+    },
+    {
+        "name": "Clackmannanshire",
+        "code": "S12000005",
+        "backgroundColour": "336699",
+        "labelColour": "C8C8C8",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Conwy",
+        "code": "W06000003",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "484848",
+        "textColour": "000000"
+    },
+    {
+        "name": "Cornwall",
+        "code": "E06000052",
+        "backgroundColour": "FDB813",
+        "labelColour": "F8F8F8",
+        "textColour": "000000"
+    },
+    {
+        "name": "Coventry",
+        "code": "E08000026",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "0070B8",
+        "textColour": "000000"
+    },
+    {
+        "name": "Croydon",
+        "code": "E09000008",
+        "backgroundColour": "76136E",
+        "labelColour": "F8E0F8",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Cumbria",
+        "code": "E10000006",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "0078A8",
+        "textColour": "000000"
+    },
+    {
+        "name": "Darlington",
+        "code": "E06000005",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "383838",
+        "textColour": "000000"
+    },
+    {
+        "name": "Sir Ddinbych - Denbighshire",
+        "code": "W06000004",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "90B050",
+        "textColour": "000000"
+    },
+    {
+        "name": "Derby City",
+        "code": "E06000015",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "F89000",
+        "textColour": "000000"
+    },
+    {
+        "name": "Derbyshire",
+        "code": "E10000007",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "902878",
+        "textColour": "000000"
+    },
+    {
+        "name": "Devon",
+        "code": "E10000008",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "4898A0",
+        "textColour": "000000"
+    },
+    {
+        "name": "Doncaster",
+        "code": "E08000017",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "383830",
+        "textColour": "000000"
+    },
+    {
+        "name": "Dorset",
+        "code": "E10000009",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "60D020",
+        "textColour": "000000"
+    },
+    {
+        "name": "Dudley",
+        "code": "E08000027",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "80B028",
+        "textColour": "000000"
+    },
+    {
+        "name": "Dumfries and Galloway",
+        "code": "S12000006",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "804878",
+        "textColour": "000000"
+    },
+    {
+        "name": "Dundee City",
+        "code": "S12000042",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "0060A8",
+        "textColour": "000000"
+    },
+    {
+        "name": "Durham",
+        "code": "E06000047",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "E0A010",
+        "textColour": "000000"
+    },
+    {
+        "name": "Ealing",
+        "code": "E09000009",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "00A860",
+        "textColour": "000000"
+    },
+    {
+        "name": "East Ayrshire",
+        "code": "S12000008",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "E00840",
+        "textColour": "000000"
+    },
+    {
+        "name": "East Dunbartonshire",
+        "code": "S12000045",
+        "backgroundColour": "CA2E93",
+        "labelColour": "F8E8F0",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "East Lothian",
+        "code": "S12000010",
+        "backgroundColour": "121212",
+        "labelColour": "C0C0C0",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "East Renfrewshire",
+        "code": "S12000011",
+        "backgroundColour": "51838E",
+        "labelColour": "B0C8D0",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "East Riding of Yorkshire",
+        "code": "E06000011",
+        "backgroundColour": "008364",
+        "labelColour": "A8D0C8",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "East Sussex",
+        "code": "E10000011",
+        "backgroundColour": "FEFEFE",
+        "labelColour": "00A8E0",
+        "textColour": "000000"
+    },
+    {
+        "name": "Edinburgh",
+        "code": "S12000036",
+        "backgroundColour": "C60F2E",
+        "labelColour": "E0A8B8",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Enfield",
+        "code": "E09000010",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "E83020",
+        "textColour": "000000"
+    },
+    {
+        "name": "Essex",
+        "code": "E10000012",
+        "backgroundColour": "FEFEFE",
+        "labelColour": "E02840",
+        "textColour": "000000"
+    },
+    {
+        "name": "Falkirk",
+        "code": "S12000014",
+        "backgroundColour": "144089",
+        "labelColour": "C8D0E0",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Fife",
+        "code": "S12000015",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "C82020",
+        "textColour": "000000"
+    },
+    {
+        "name": "Sir y Fflint - Flintshire",
+        "code": "W06000005",
+        "backgroundColour": "797CA9",
+        "labelColour": "E8E8F0",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Gateshead",
+        "code": "E08000037",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "00A0B0",
+        "textColour": "000000"
+    },
+    {
+        "name": "Glasgow",
+        "code": "S12000046",
+        "backgroundColour": "006A60",
+        "labelColour": "F8C028",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Gloucestershire",
+        "code": "E10000013",
+        "backgroundColour": "0054A4",
+        "labelColour": "88B8D8",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Greenwich",
+        "code": "E09000011",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "B05058",
+        "textColour": "000000"
+    },
+    {
+        "name": "Guernsey",
+        "code": "X00000001",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "90D008",
+        "textColour": "000000"
+    },
+    {
+        "name": "Gwynedd",
+        "code": "W06000002",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "C80038",
+        "textColour": "000000"
+    },
+    {
+        "name": "Hackney",
+        "code": "E09000012",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "306858",
+        "textColour": "000000"
+    },
+    {
+        "name": "Halton",
+        "code": "E06000006",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "209068",
+        "textColour": "000000"
+    },
+    {
+        "name": "Hammersmith and Fulham",
+        "code": "E09000013",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "B09040",
+        "textColour": "000000"
+    },
+    {
+        "name": "Hampshire",
+        "code": "E10000014",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "E81828",
+        "textColour": "000000"
+    },
+    {
+        "name": "Haringey",
+        "code": "E09000014",
+        "backgroundColour": "DB291D",
+        "labelColour": "F8E0E0",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Harrow",
+        "code": "E09000015",
+        "backgroundColour": "472B82",
+        "labelColour": "F89058",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Hartlepool",
+        "code": "E06000001",
+        "backgroundColour": "6E9B46",
+        "labelColour": "F8E8E8",
+        "textColour": "000000"
+    },
+    {
+        "name": "Havering",
+        "code": "E09000016",
+        "backgroundColour": "0070B8",
+        "labelColour": "90C0D8",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Herefordshire",
+        "code": "E06000019",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "201820",
+        "textColour": "000000"
+    },
+    {
+        "name": "Hertfordshire",
+        "code": "E10000015",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "909808",
+        "textColour": "000000"
+    },
+    {
+        "name": "Highland",
+        "code": "S12000017",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "20B8E8",
+        "textColour": "000000"
+    },
+    {
+        "name": "Hillingdon",
+        "code": "E09000017",
+        "backgroundColour": "03504A",
+        "labelColour": "B0C8C0",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Hounslow",
+        "code": "E09000018",
+        "backgroundColour": "862086",
+        "labelColour": "D0B8D0",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Kingston upon Hull",
+        "code": "E06000010",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "181818",
+        "textColour": "000000"
+    },
+    {
+        "name": "Inverclyde",
+        "code": "S12000018",
+        "backgroundColour": "8DEBED",
+        "labelColour": "109090",
+        "textColour": "000000"
+    },
+    {
+        "name": "Isle of Wight",
+        "code": "E06000046",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "E8B010",
+        "textColour": "000000"
+    },
+    {
+        "name": "Islington",
+        "code": "E09000019",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "90B008",
+        "textColour": "000000"
+    },
+    {
+        "name": "Jersey",
+        "code": "X00000002",
+        "backgroundColour": "E53329",
+        "labelColour": "F8E8E8",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Kensington and Chelsea",
+        "code": "E09000020",
+        "backgroundColour": "1B4347",
+        "labelColour": "F0A830",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Kent",
+        "code": "E10000016",
+        "backgroundColour": "ED1E26",
+        "labelColour": "F0E8E8",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Kingston upon Thames",
+        "code": "E09000021",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "1070B0",
+        "textColour": "000000"
+    },
+    {
+        "name": "Kirklees",
+        "code": "E08000034",
+        "backgroundColour": "D70B52",
+        "labelColour": "E890B0",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Knowsley",
+        "code": "E08000011",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "B82830",
+        "textColour": "000000"
+    },
+    {
+        "name": "Lambeth",
+        "code": "E09000022",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "F0A020",
+        "textColour": "000000"
+    },
+    {
+        "name": "Lancashire",
+        "code": "E10000017",
+        "backgroundColour": "F6F6F6",
+        "labelColour": "D01040",
+        "textColour": "000000",
+        "barcode": {
+            "type": "codabar",
+            "invalidCharacters": "[^0-9]",
+            "parseExpression": "^(?<code>[0-9]{14})$",
+            "renderExpression": "A{code}B"
+        }
+    },
+    {
+        "name": "Leeds",
+        "code": "E08000035",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "303030",
+        "textColour": "000000"
+    },
+    {
+        "name": "Leicester City",
+        "code": "E06000016",
+        "backgroundColour": "010204",
+        "labelColour": "B8B8B8",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Leicestershire",
+        "code": "E10000018",
+        "backgroundColour": "1085BB",
+        "labelColour": "E0D8B0",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Lewisham",
+        "code": "E09000023",
+        "backgroundColour": "4273B5",
+        "labelColour": "F8D848",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Lincolnshire",
+        "code": "E10000019",
+        "backgroundColour": "B0BD39",
+        "labelColour": "F8F8E0",
+        "textColour": "000000"
+    },
+    {
+        "name": "Liverpool",
+        "code": "E08000012",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "584088",
+        "textColour": "000000"
+    },
+    {
+        "name": "Luton",
+        "code": "E06000032",
+        "backgroundColour": "61116A",
+        "labelColour": "C0A8C8",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Manchester",
+        "code": "E08000003",
+        "backgroundColour": "3A3A3C",
+        "labelColour": "C0C0C0",
+        "textColour": "FFFFFF",
+        "barcode": {
+            "type": "code_128",
+            "invalidCharacters": "[^D0-9]",
+            "parseExpression": "^(?<code>D[0-9]{13})$",
+            "renderExpression": "{code}"
+        }
+    },
+    {
+        "name": "Medway",
+        "code": "E06000035",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "0058A8",
+        "textColour": "000000"
+    },
+    {
+        "name": "Merthyr Tudful - Merthyr Tydfil",
+        "code": "W06000024",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "E8B828",
+        "textColour": "000000"
+    },
+    {
+        "name": "Merton",
+        "code": "E09000024",
+        "backgroundColour": "432D76",
+        "labelColour": "B0A8C0",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Middlesbrough",
+        "code": "E06000002",
+        "backgroundColour": "E5F2F7",
+        "labelColour": "F0A008",
+        "textColour": "000000"
+    },
+    {
+        "name": "Midlothian",
+        "code": "S12000019",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "A8D820",
+        "textColour": "000000"
+    },
+    {
+        "name": "Milton Keynes",
+        "code": "E06000042",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "38B048",
+        "textColour": "000000"
+    },
+    {
+        "name": "Sir Fynwy - Monmouthshire",
+        "code": "W06000021",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "80B830",
+        "textColour": "000000"
+    },
+    {
+        "name": "Moray",
+        "code": "S12000020",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "C02098",
+        "textColour": "000000"
+    },
+    {
+        "name": "Castell-nedd Port Talbot - Neath Port Talbot",
+        "code": "W06000012",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "A8C070",
+        "textColour": "000000"
+    },
+    {
+        "name": "Newcastle upon Tyne",
+        "code": "E08000021",
+        "backgroundColour": "000000",
+        "labelColour": "60E0E8",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Newham",
+        "code": "E09000025",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "C80870",
+        "textColour": "000000"
+    },
+    {
+        "name": "Casnewydd - Newport",
+        "code": "W06000022",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "F0B808",
+        "textColour": "000000"
+    },
+    {
+        "name": "Norfolk",
+        "code": "E10000020",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "E04030",
+        "textColour": "000000"
+    },
+    {
+        "name": "North Ayrshire",
+        "code": "S12000021",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "00A0E0",
+        "textColour": "000000"
+    },
+    {
+        "name": "North East Lincolnshire",
+        "code": "E06000012",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "F07058",
+        "textColour": "000000"
+    },
+    {
+        "name": "North Lanarkshire",
+        "code": "S12000044",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "104098",
+        "textColour": "000000"
+    },
+    {
+        "name": "North Lincolnshire",
+        "code": "E06000013",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "383838",
+        "textColour": "000000"
+    },
+    {
+        "name": "North Somerset",
+        "code": "E06000024",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "60D020",
+        "textColour": "000000"
+    },
+    {
+        "name": "North Tyneside",
+        "code": "E08000022",
+        "backgroundColour": "2C53A0",
+        "labelColour": "F8D048",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "North Yorkshire",
+        "code": "E10000023",
+        "backgroundColour": "6F008A",
+        "labelColour": "C8A8D0",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Northamptonshire",
+        "code": "E10000021",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "78C040",
+        "textColour": "000000"
+    },
+    {
+        "name": "Northumberland",
+        "code": "E06000057",
+        "backgroundColour": "33346C",
+        "labelColour": "B8C0E0",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Nottingham City",
+        "code": "E06000018",
+        "backgroundColour": "C9D100",
+        "labelColour": "F8F8E8",
+        "textColour": "000000"
+    },
+    {
+        "name": "Nottinghamshire",
+        "code": "E10000024",
+        "backgroundColour": "238321",
+        "labelColour": "B0D0B0",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Northern Ireland",
+        "code": "X00000003",
+        "backgroundColour": "91268F",
+        "labelColour": "D0A8D0",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Oldham",
+        "code": "E08000004",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "0898B0",
+        "textColour": "000000"
+    },
+    {
+        "name": "Orkney Islands",
+        "code": "S12000023",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "484848",
+        "textColour": "000000"
+    },
+    {
+        "name": "Oxfordshire",
+        "code": "E10000025",
+        "backgroundColour": "00483A",
+        "labelColour": "B8D0C8",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Sir Benfro - Pembrokeshire",
+        "code": "W06000009",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "208870",
+        "textColour": "000000"
+    },
+    {
+        "name": "Perth and Kinross",
+        "code": "S12000024",
+        "backgroundColour": "C0E1D8",
+        "labelColour": "085098",
+        "textColour": "000000"
+    },
+    {
+        "name": "Peterborough",
+        "code": "E06000031",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "60B848",
+        "textColour": "000000"
+    },
+    {
+        "name": "Plymouth",
+        "code": "E06000026",
+        "backgroundColour": "313131",
+        "labelColour": "C0C0C0",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Poole",
+        "code": "E06000029",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "60D020",
+        "textColour": "000000"
+    },
+    {
+        "name": "Portsmouth",
+        "code": "E06000044",
+        "backgroundColour": "FEFEFE",
+        "labelColour": "405888",
+        "textColour": "000000"
+    },
+    {
+        "name": "Powys",
+        "code": "W06000023",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "E84048",
+        "textColour": "000000"
+    },
+    {
+        "name": "Reading",
+        "code": "E06000038",
+        "backgroundColour": "5C0A52",
+        "labelColour": "C8B0C8",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Redbridge",
+        "code": "E09000026",
+        "backgroundColour": "930B55",
+        "labelColour": "D0A8C0",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Redcar and Cleveland",
+        "code": "E06000003",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "0080A8",
+        "textColour": "000000"
+    },
+    {
+        "name": "Renfrewshire",
+        "code": "S12000038",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "F02850",
+        "textColour": "000000"
+    },
+    {
+        "name": "Rhondda Cynon Taf",
+        "code": "W06000016",
+        "backgroundColour": "A5000E",
+        "labelColour": "E0B0B0",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Richmond upon Thames",
+        "code": "E09000027",
+        "backgroundColour": "99CC67",
+        "labelColour": "0058A8",
+        "textColour": "000000"
+    },
+    {
+        "name": "Rochdale",
+        "code": "E08000005",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "409888",
+        "textColour": "000000"
+    },
+    {
+        "name": "Rotherham",
+        "code": "E08000018",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "407090",
+        "textColour": "000000"
+    },
+    {
+        "name": "Rutland",
+        "code": "E06000017",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "F0B820",
+        "textColour": "000000"
+    },
+    {
+        "name": "Salford",
+        "code": "E08000006",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "C00078",
+        "textColour": "000000"
+    },
+    {
+        "name": "Sandwell",
+        "code": "E08000028",
+        "backgroundColour": "442F8C",
+        "labelColour": "B0A8C8",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Scottish Borders",
+        "code": "S12000026",
+        "backgroundColour": "4E555D",
+        "labelColour": "C0C0C8",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Sefton",
+        "code": "E08000014",
+        "backgroundColour": "0082BC",
+        "labelColour": "98C8D8",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Sheffield",
+        "code": "E08000019",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "0870B8",
+        "textColour": "000000"
+    },
+    {
+        "name": "Shetland Islands",
+        "code": "S12000027",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "F8C010",
+        "textColour": "000000"
+    },
+    {
+        "name": "Shropshire",
+        "code": "E06000051",
+        "backgroundColour": "0084C4",
+        "labelColour": "A8D8E0",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Slough",
+        "code": "E06000039",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "B00028",
+        "textColour": "000000"
+    },
+    {
+        "name": "Solihull",
+        "code": "E08000029",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "D87870",
+        "textColour": "000000"
+    },
+    {
+        "name": "Somerset",
+        "code": "E10000027",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "60D020",
+        "textColour": "000000"
+    },
+    {
+        "name": "South Ayrshire",
+        "code": "S12000028",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "0888C8",
+        "textColour": "000000"
+    },
+    {
+        "name": "South Gloucestershire",
+        "code": "E06000025",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "60D020",
+        "textColour": "000000"
+    },
+    {
+        "name": "South Lanarkshire",
+        "code": "S12000029",
+        "backgroundColour": "182C69",
+        "labelColour": "FFFFFF",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "South Tyneside",
+        "code": "E08000023",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "A89038",
+        "textColour": "000000"
+    },
+    {
+        "name": "Southampton",
+        "code": "E06000045",
+        "backgroundColour": "1E355F",
+        "labelColour": "B8B8C8",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Southend on Sea",
+        "code": "E06000033",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "F0D008",
+        "textColour": "000000"
+    },
+    {
+        "name": "Southwark",
+        "code": "E09000028",
+        "backgroundColour": "FFFEFC",
+        "labelColour": "808080",
+        "textColour": "000000"
+    },
+    {
+        "name": "St Helens",
+        "code": "E08000013",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "C04840",
+        "textColour": "000000"
+    },
+    {
+        "name": "Staffordshire",
+        "code": "E10000028",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "C89810",
+        "textColour": "000000"
+    },
+    {
+        "name": "Stirling",
+        "code": "S12000030",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "38A030",
+        "textColour": "000000"
+    },
+    {
+        "name": "Stockport",
+        "code": "E08000007",
+        "backgroundColour": "006B65",
+        "labelColour": "B8E0E0",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Stockton-on-Tees",
+        "code": "E06000004",
+        "backgroundColour": "0079CC",
+        "labelColour": "98C8E0",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Stoke on Trent",
+        "code": "E06000021",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "A02028",
+        "textColour": "000000"
+    },
+    {
+        "name": "Suffolk",
+        "code": "E10000029",
+        "backgroundColour": "004A99",
+        "labelColour": "A8C0D8",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Sunderland",
+        "code": "E08000024",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "D01808",
+        "textColour": "000000"
+    },
+    {
+        "name": "Surrey",
+        "code": "E10000030",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "388070",
+        "textColour": "000000"
+    },
+    {
+        "name": "Sutton",
+        "code": "E09000029",
+        "backgroundColour": "43947A",
+        "labelColour": "E8F0F0",
+        "textColour": "000000"
+    },
+    {
+        "name": "Abertawe - Swansea",
+        "code": "W06000011",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "C01018",
+        "textColour": "000000"
+    },
+    {
+        "name": "Swindon",
+        "code": "E06000030",
+        "backgroundColour": "F47B20",
+        "labelColour": "F0F0E0",
+        "textColour": "000000"
+    },
+    {
+        "name": "Tameside",
+        "code": "E08000008",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "0098A8",
+        "textColour": "000000"
+    },
+    {
+        "name": "Telford and Wrekin",
+        "code": "E06000020",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "F09000",
+        "textColour": "000000"
+    },
+    {
+        "name": "Thurrock",
+        "code": "E06000034",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "288858",
+        "textColour": "000000"
+    },
+    {
+        "name": "Torbay",
+        "code": "E06000027",
+        "backgroundColour": "212F60",
+        "labelColour": "F8D068",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Tor-faen - Torfaen",
+        "code": "W06000020",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "089878",
+        "textColour": "000000"
+    },
+    {
+        "name": "Tower Hamlets",
+        "code": "E09000030",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "1070B8",
+        "textColour": "000000"
+    },
+    {
+        "name": "Trafford",
+        "code": "E08000009",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "A83838",
+        "textColour": "000000"
+    },
+    {
+        "name": "Bro Morgannwg - the Vale of Glamorgan",
+        "code": "W06000014",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "28B8E8",
+        "textColour": "000000"
+    },
+    {
+        "name": "Wakefield",
+        "code": "E08000036",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "4858A8",
+        "textColour": "000000"
+    },
+    {
+        "name": "Walsall",
+        "code": "E08000030",
+        "backgroundColour": "834586",
+        "labelColour": "D0B8D0",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Waltham Forest",
+        "code": "E09000031",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "00A080",
+        "textColour": "000000"
+    },
+    {
+        "name": "Wandsworth",
+        "code": "E09000032",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "58B078",
+        "textColour": "000000"
+    },
+    {
+        "name": "Warrington",
+        "code": "E06000007",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "383838",
+        "textColour": "000000"
+    },
+    {
+        "name": "Warwickshire",
+        "code": "E10000031",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "A01810",
+        "textColour": "000000"
+    },
+    {
+        "name": "West Berkshire",
+        "code": "E06000037",
+        "backgroundColour": "019481",
+        "labelColour": "C8E8E8",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "West Dunbartonshire",
+        "code": "S12000039",
+        "backgroundColour": "39414C",
+        "labelColour": "B0B0B8",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "West Lothian",
+        "code": "S12000040",
+        "backgroundColour": "49277B",
+        "labelColour": "C8D0D8",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "West Sussex",
+        "code": "E10000032",
+        "backgroundColour": "4BACCD",
+        "labelColour": "484848",
+        "textColour": "000000"
+    },
+    {
+        "name": "Western Isles",
+        "code": "S12000013",
+        "backgroundColour": "49277B",
+        "labelColour": "D0C8E0",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Westminster",
+        "code": "E09000033",
+        "backgroundColour": "0B2265",
+        "labelColour": "F8B830",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Wigan",
+        "code": "E08000010",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "0888C0",
+        "textColour": "000000",
+        "barcode": {
+            "type": "telepen_numeric",
+            "invalidCharacters": "[^0-9]",
+            "parseExpression": "^(?<code>[0-9]{6,8})$",
+            "renderExpression": "{code}"
+        }
+    },
+    {
+        "name": "Wiltshire",
+        "code": "E06000054",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "10A0D8",
+        "textColour": "000000"
+    },
+    {
+        "name": "Windsor & Maidenhead",
+        "code": "E06000040",
+        "backgroundColour": "8C2A91",
+        "labelColour": "C8A8D0",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Wirral",
+        "code": "E08000015",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "484848",
+        "textColour": "000000"
+    },
+    {
+        "name": "Wokingham",
+        "code": "E06000041",
+        "backgroundColour": "5B2B55",
+        "labelColour": "C8B8C8",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "Wolverhampton",
+        "code": "E08000031",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "D83040",
+        "textColour": "000000"
+    },
+    {
+        "name": "Worcestershire",
+        "code": "E10000034",
+        "backgroundColour": "FFFFFF",
+        "labelColour": "882840",
+        "textColour": "000000"
+    },
+    {
+        "name": "Wrecsam - Wrexham",
+        "code": "W06000006",
+        "backgroundColour": "9E2955",
+        "labelColour": "D0A0B0",
+        "textColour": "FFFFFF"
+    },
+    {
+        "name": "York City",
+        "code": "E06000014",
+        "backgroundColour": "0C070D",
+        "labelColour": "A8A8A8",
+        "textColour": "FFFFFF"
+    }
+]
