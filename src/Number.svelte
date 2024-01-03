@@ -11,15 +11,15 @@
     let invalid = false;
 
     function next() {
-        if (context.library.barcode != undefined && context.library.barcode.isValid(context.number)) {
+        if (context.library?.barcode != undefined && context.library.barcode.isValid(context.number ?? '')) {
             context.screen = Screen.Name;
-            context.scannedNumber = context.library.barcode.render(context.number);
+            context.scannedNumber = context.library.barcode.render(context.number!);
             context.discovered = false;
-            context.type = _.find(BARCODES, x => x.type == context.library.barcode.type);
+            context.type = _.find(BARCODES, x => x.type == context.library!.barcode!.type);
 
             dispatch('next');
         }
-        else if (context.library.barcode != undefined && !context.library.barcode.isValid(context.number)) {
+        else if (context.library?.barcode != undefined && !context.library.barcode.isValid(context.number ?? '')) {
             invalid = true;
         }
         else {
@@ -43,7 +43,7 @@
 <div class="row">
     <div class="col">
         <div class="m-3">
-            <p>Let's set up a library card in your wallet for <strong>{context.library.name}</strong>.</p>
+            <p>Let's set up a library card in your wallet for <strong>{context.library?.name}</strong>.</p>
         </div>
     </div>
 </div>

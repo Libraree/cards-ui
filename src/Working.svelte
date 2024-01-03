@@ -2,61 +2,43 @@
     import { createEventDispatcher, onMount } from 'svelte';
     import type CardContext from './back/CardContext';
     import { Screen } from './back/Screens';
-    import Quagga from '@ericblade/quagga2';
     import _ from 'underscore';
     import { BARCODES } from './back/Barcode';
     import  BarcodeResult from './back/BarcodeResult';
+    import { 
+        convert_js_image_to_luma, 
+        decode_barcode_with_hints, 
+        DecodeHintDictionary,
+        DecodeHintTypes } from 'rxing-wasm';
 
 	const dispatch = createEventDispatcher();
-
 	export let context: CardContext;
-
-    function asciiToNumeric(ascii: string): string {
-        let number = '';
-
-        for(const n of ascii) {
-            const temp = n.charCodeAt(0);
-    
-            if (temp >= 27) {
-                number += temp - 27;
-            }
-            else {
-                number += temp - 17;
-            }
-        }
-    
-        return number;
-    }
 
     onMount(async () => {
         const readers = _
             .chain(BARCODES)
             .filter(x => x.reader)
-            .map(x => x.reader)
             .value();
 
         const results: BarcodeResult[] = [];
 
         for (const reader of readers) {
             try {
-                const result = await Quagga.decodeSingle({
-                    src: context.croppedImage,
-                    locate: false,
-                    numOfWorkers: 0,
-                    inputStream: {
-                        size: 800,
-                        singleChannel: false,
-                    },
-                    decoder : {
-                        readers : [ reader ]
+                const luma8Data = convert_js_image_to_luma(context.croppedImage!);
+                const hints = new DecodeHintDictionary();
+                hints.set_hint(DecodeHintTypes.PossibleFormats, reader.reader);
+                hints.set_hint(DecodeHintTypes.TryHarder, 'true');
+
+                if (reader.hints) {
+                    for (const key in reader.hints) {
+                        hints.set_hint(parseInt(key), reader.hints[key]);
                     }
-                });
+                }
 
-                if (result.codeResult) {
-                    results.push(new BarcodeResult(result.codeResult.format, result.codeResult.code));
-
-                    if (result.codeResult.format == 'telepen')
-                        results.push(new BarcodeResult('telepen_numeric', asciiToNumeric(result.codeResult.code)));
+                const result = decode_barcode_with_hints(luma8Data, context.width!, context.height!, hints);
+          
+                if (result.text()) {
+                    results.push(new BarcodeResult(reader.type, result.text() ?? ''));
                 }
             }
             catch(e) {
@@ -64,7 +46,7 @@
             }
         }
 
-        const match = results.find(x => x.isMatch(context.number));
+        const match = results.find(x => x.isMatch(context.number ?? ''));
 
         context.scannedNumber = match?.code;
         context.type = BARCODES.find(x => x.type == match?.type);

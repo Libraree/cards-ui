@@ -2,7 +2,7 @@
     import { createEventDispatcher } from 'svelte';
     import type CardContext from './back/CardContext';
     import { Screen } from './back/Screens';
-    import { Icon } from 'sveltestrap';
+    import { Icon } from '@sveltestrap/sveltestrap';
 
 	const dispatch = createEventDispatcher();
 

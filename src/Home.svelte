@@ -58,6 +58,8 @@
 		<div class="container">
 			<div class="row m-2">
 				<div class="col text-center title">
+					<!-- svelte-ignore a11y-click-events-have-key-events -->
+					<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
 					<img class="logo" src="/images/Libraree-light.png" alt="Libraree" on:click={() => debugClick++} />
 					<p>CARDS</p>
 				</div>
@@ -72,7 +74,7 @@
 					<h1>Put UK library cards in your Apple or Android wallet for free.</h1>
 				</div>
 			</div>
-			{#if device.os.name != 'iOS' && device.os.name != 'Android' && location.hostname == 'cards.libraree.org' && debugClick < 5}
+			{#if device.os?.name != 'iOS' && device.os?.name != 'Android' && location.hostname == 'cards.libraree.org' && debugClick < 5}
 				<div class="row m-5">
 					<div class="col text-center">
 						<img class="qr" src="/images/libraree-qr.png" alt="QR Code for cards.libraree.org" />

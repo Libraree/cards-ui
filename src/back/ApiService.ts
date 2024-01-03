@@ -15,8 +15,8 @@ export default class ApiService {
             }
 
             body = JSON.stringify({
-                code: context.library.code,
-                type: context.type.type,
+                code: context.library!.code,
+                type: context.type!.type,
                 discovered: context.discovered,
                 redactedEntered: context.redactedEntered,
                 redactedScanned: context.redactedScanned,

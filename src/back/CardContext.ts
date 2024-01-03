@@ -1,32 +1,38 @@
 import { Screen } from './Screens';
 import type Barcode from './Barcode';
 import type { Library } from './Library';
-import BwipJs from '../bwip-js-min.js';
+//import BwipJs from '../bwip-js-min.js';
+import BwipJs from 'bwip-js/browser';
 import { decode } from 'base64-arraybuffer';
 import JSZip from 'jszip';
 
 export default class CardContext {
-    library: Library;
-    number: string;
-    name: string;
-    image: string;
-    croppedImage: string;
+    library?: Library;
+    number?: string;
+    name?: string;
+    image?: string;
+    croppedImage?: Uint8Array;
+    width?: number;
+    height?: number;
     screen = Screen.Home;
     files: WalletFile[] = [];
-    type: Barcode;
-    scannedNumber: string;
-    discovered: boolean;
-    pass: Blob;
+    type?: Barcode;
+    scannedNumber?: string;
+    discovered: boolean = false;
+    pass?: Blob;
 
     get redactedEntered(): string {
-        return this.number.replace(/[0-9]/g, '0');
+        return (this.number ?? '').replace(/[0-9]/g, '0');
     }
 
     get redactedScanned(): string {
-        return this.scannedNumber.replace(/[0-9]/g, '0');
+        return (this.scannedNumber ?? '').replace(/[0-9]/g, '0');
     }
 
     generateJson(): void {
+        if (!this.library)
+            throw 'No library defined!';
+
         const definition = {
             formatVersion: 1,
             passTypeIdentifier: 'pass.org.libraree.cards',
@@ -77,9 +83,12 @@ export default class CardContext {
     }
 
     private async generateRegularBarcode(canvas: HTMLCanvasElement): Promise<void> {
+        if (!this.type)
+            throw 'No barcode information!';
+
         await BwipJs.toCanvas(canvas, {
             bcid: this.type.writer,
-            text: this.scannedNumber,
+            text: this.scannedNumber ?? '',
             scale: 1,
             width: 212,
             height: 112,
@@ -93,13 +102,16 @@ export default class CardContext {
         url = url.substring(url.indexOf('base64,') + 7);
 
         const binary = decode(url);
-        this.files.push(new WalletFile('strip.png', null, binary as Uint8Array));
+        this.files.push(new WalletFile('strip.png', undefined, binary as Uint8Array));
     }
 
     private async generateLargeBarcode(canvas: HTMLCanvasElement): Promise<void> {
+        if (!this.type)
+            throw 'No barcode information!';
+
         await BwipJs.toCanvas(canvas, {
             bcid: this.type.writer,
-            text: this.scannedNumber,
+            text: this.scannedNumber ?? '',
             scale: 1,
             width: 404,
             height: 145,
@@ -113,7 +125,7 @@ export default class CardContext {
         url = url.substring(url.indexOf('base64,') + 7);
 
         const binary = decode(url);
-        this.files.push(new WalletFile('strip@2x.png', null, binary as Uint8Array));
+        this.files.push(new WalletFile('strip@2x.png', undefined, binary as Uint8Array));
     }
 
     private convertToRgb(hex: string): string {
@@ -140,9 +152,9 @@ export class WalletFile {
     name: string;
     bytes: ArrayBuffer;
 
-    constructor(name: string, text: string = null, bytes: ArrayBuffer = null) {
+    constructor(name: string, text?: string, bytes?: ArrayBuffer) {
         this.name = name;
-        this.bytes = bytes ?? new TextEncoder().encode(text);
+        this.bytes = bytes ?? new TextEncoder().encode(text!);
     }
 
     async checksum(): Promise<string> {

@@ -17,7 +17,7 @@
     let canvas: HTMLCanvasElement;
     let container: HTMLDivElement;
 
-    function onCrop(detail) {
+    function onCrop(detail: any) {
         cropX = detail.x;
         cropY = detail.y;
         cropWidth = detail.width;
@@ -28,11 +28,14 @@
         canvas.width = cropWidth;
         canvas.height = cropHeight;
 
-        const ctx = canvas.getContext('2d');
+        const ctx = canvas.getContext('2d')!;
         const image = container.getElementsByTagName('div')[0].getElementsByTagName('img')[0];
         ctx.drawImage(image, cropX, cropY, cropWidth, cropHeight, 0, 0, cropWidth, cropHeight);
+        const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
 
-        context.croppedImage = canvas.toDataURL();
+        context.croppedImage = new Uint8Array(imageData.data);
+        context.width = canvas.width;
+        context.height = canvas.height;
         context.screen = Screen.Working;
         dispatch('next');
     }
@@ -71,7 +74,7 @@
     <div class="col">
         <div id="crop-container" bind:this={container} class="m-3" bind:clientWidth={width} bind:clientHeight={height}>
             <Cropper
-                image={context.image}
+                image={context.image ?? ''}
                 crop={{ x: 0, y: 0 }}
                 zoom={2}
                 aspect={17/6}

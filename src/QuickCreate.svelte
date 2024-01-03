@@ -20,7 +20,7 @@
         // Generate the card!
         generating = true;
 
-        context.scannedNumber = context.type.type == 'codabar' ? `A${context.number}B` : context.number;
+        context.scannedNumber = context.type!.type == 'codabar' ? `A${context.number}B` : context.number;
 
         await context.generateJson();
         await context.generateBarcodes(canvas);

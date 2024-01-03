@@ -17,7 +17,8 @@
             window.location.href = reader.result as string;
         };
 
-        reader.readAsDataURL(context.pass);
+        reader.readAsDataURL(context.pass!);
+        return true;
     }
 
     function next() {
@@ -59,7 +60,7 @@
     <div class="row mt20">
         <div class="col">
             <div class="m-3">
-                <p>To help us make this process a little easier for others in the future, we've recorded that {context.library.name} libraries use a "{context.type.name}" barcode. No personal information has been shared or stored.</p>
+                <p>To help us make this process a little easier for others in the future, we've recorded that {context.library?.name} libraries use a "{context.type?.name}" barcode. No personal information has been shared or stored.</p>
             </div>
         </div>
     </div>
@@ -67,7 +68,7 @@
     <div class="row mt20">
         <div class="col">
             <div class="m-3">
-                <p>Your {context.library.name} library card is ready to download into Apple Wallet or Wallet Passes.</p>
+                <p>Your {context.library?.name} library card is ready to download into Apple Wallet or Wallet Passes.</p>
             </div>
         </div>
     </div>

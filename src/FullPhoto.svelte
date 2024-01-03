@@ -2,20 +2,20 @@
     import { createEventDispatcher } from 'svelte';
     import type CardContext from './back/CardContext';
     import { Screen } from './back/Screens';
-    import { Icon } from 'sveltestrap';
+    import { Icon } from '@sveltestrap/sveltestrap';
 
 	const dispatch = createEventDispatcher();
 
 	export let context: CardContext;
-    let  fileinput;
+    let  fileinput: HTMLInputElement;
 	
-	const onFileSelected =(e)=>{
-        let image = e.target.files[0];
+	const onFileSelected =(e: Event & { currentTarget: EventTarget & HTMLInputElement })=>{
+        let image = e.currentTarget!.files![0];
         let reader = new FileReader();
         reader.readAsDataURL(image);
         
         reader.onload = data => {
-            context.image = data.target.result.toString();
+            context.image = data.target!.result?.toString();
             context.screen = Screen.ZoomCrop;
             dispatch('next');
         };
